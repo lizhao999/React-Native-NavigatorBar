@@ -11,7 +11,7 @@ import NavbarButton from './NavbarButton';
 import styles from './styles';
 
 const ButtonShape = {
-  title: PropTypes.string.isRequired,
+  title: PropTypes.string,
   style: PropTypes.any,
   handler: PropTypes.func,
   disabled: PropTypes.bool,
